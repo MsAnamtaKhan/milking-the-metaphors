@@ -1,0 +1,43 @@
+User Instruction:
+You are provided with a document
+containing transcripts from YouTube
+videos that discuss misinformation about
+gomutra (cow urine). Carefully review
+the provided texts and complete the
+following tasks:
+
+Tasks:
+1. Identify all intensifiers in each
+transcript.
+
+Definition of an intensifier: An
+intensifier is a word or a phrase
+specifically used to strengthen,
+exaggerate, or emphasize a claim. It
+is a lexical item that operates as a
+degree modifier on an adjective, an
+adverb, or occasionally a verb
+phrase. It augments the head it
+modifies, without altering the core
+semantic denotation of that head. For
+example, \very" (as in \The food was
+very good"), \strongly" (as in \I
+strongly believe in the power of
+education"), \too" (as in \The person
+was driving too fast\).
+
+2. For each identified intensifier:
+• Quote the exact intensifier.
+• Identify the word it modifies.
+• Indicate its precise position
+within the text (e.g., beginning,
+middle, end of the
+sentence/paragraph).
+• Explain clearly how the intensifier amplifies or contributes to
+misinformation about gomutra.
+
+3. Summarize any patterns or common
+techniques observed across the
+transcripts regarding the use of
+intensifiers in promoting
+misinformation
