@@ -1,0 +1,40 @@
+User Instruction:
+You are an expert linguistic annotator
+specializing in scientific discourse.
+Carefully read the transcript below (ID:
+transcript
+id).
+Extract ONLY terms that are explicitly
+scientific or
+pseudo-scientific|biomedical, chemical,
+laboratory, clinical, anatomical, or
+technical vocabulary typically
+associated with modern medicine or
+science.
+
+
+Include:
+• Specific chemicals, compounds, or
+medicines (e.g., enzyme, uric acid).
+• Diseases, medical conditions, or
+biological processes (e.g., cancer,
+immune response).
+• Diagnostic tools or procedures (e.g.,
+MRI, ECG, blood test).
+• Scientific-sounding buzzwords used to
+lend credibility (e.g., antioxidants,
+toxins).
+
+
+Exclude:
+• Ayurvedic or traditional medical
+terms.
+• Mythological or religious references.
+• General terms like ’health’ or
+’natural.
+
+
+Return ONLY a comma-separated list of
+unique terms (no duplicates, no
+explanations). If none, return ’’.
+Transcript: transcript
