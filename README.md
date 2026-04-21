@@ -10,6 +10,7 @@ This project presents a post-facto Large Language Model (LLM)-assisted discourse
 * `/scripts/wer_evaluation`: Code to calculate the Word Error Rate (WER) of the automated transcriptions.
 * `/scripts/f1_evaluation`: Code to calculate Precision, Recall, and F1-scores for LLM-based term extraction.
 * `/scripts/cohens_kappa_analysis`: Code to calculate the inter annotator agreement for intensifiers annotation among the models.
+*  `/scripts/gender_analysis`: Code for applying statistical analysis on gender.
 * `/prompts`: The exact prompt templates used for GPT-4o, Gemini 2.5 Pro, and DeepSeek evaluations.
 
 ## Data Access & Ethical Considerations
@@ -41,6 +42,13 @@ Text outputs containing intensifiers were generated using three distinct languag
 $$\kappa=\frac{p_o-p_e}{1-p_e}$$
 
 Where $p_o$ is the relative observed agreement among models (derived from a binary presence/absence matrix of all unique intensifiers in the corpus), and $p_e$ is the hypothetical probability of chance agreement. Agreement was analyzed pairwise at both the model level (e.g., Gemini vs. GPT-4o-mini) and the condition level (e.g., Formal vs. Friendly), with results mapped to standard interpretative thresholds.
+
+### 4. Lexical Gender Analysis & Feature Normalization
+To investigate gender-mediated differences in rhetorical strategies, we conducted a targeted lexical analysis comparing transcripts of single-speaker male and female videos. The gender_analysis.ipynb script quantifies the prevalence of five distinct linguistic categories: certainty amplifiers, universality markers, first-person singular pronouns, inclusive pronouns ("we/our"), and hyperbolic terms.To ensure a balanced comparison across transcripts of varying lengths, raw feature counts were standardized to occurrences per 1,000 words using the following formulation:
+
+$$\text{Normalized Frequency}=\left(\frac{\text{Feature Count}}{\text{Total Tokens}}\right)\times 1000$$
+
+The script aggregates these normalized frequencies to compute the mean usage rates for each gender cohort. This produces comparative statistical tables that surface macro-level linguistic divergences between male and female speakers across the corpus.
 
 ## Requirements
 * Python 3.8+
