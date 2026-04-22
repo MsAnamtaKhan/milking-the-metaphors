@@ -59,9 +59,11 @@ The script aggregates these normalized frequencies to compute the mean usage rat
 If you use this code or dataset in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{anonymous2026gomutramisinfo,
-  title={When Cow Urine Cures Constipation on YouTube: Limits of LLMs in Detecting Culture-specific Health Misinformation,
-  author={Anonymous},
-  booktitle={Proceedings of the International AAAI Conference on  Misinformation Detection in the Era of LLMs (ICWSM)},
-  year={2026}
+@inproceedings{khan2026,
+  title     = {When Cow Urine Cures Constipation on {YouTube}: Limits of {LLMs} in Detecting Culture-specific Health Misinformation},
+  author    = {Khan, Anamta and Kandala, Ratna and Deepti and Munir, Sheza and Pal, Joyojeet},
+  booktitle = {Proceedings of the 2nd Workshop on Misinformation Detection in the Era of {LLMs} ({MisD})},
+  series    = {The 20th International {AAAI} Conference on Web and Social Media ({ICWSM})},
+  year      = {2026},
+  note      = {To appear}
 }
