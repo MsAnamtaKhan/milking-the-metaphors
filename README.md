@@ -36,7 +36,7 @@ Where *S* is substitutions, *D* is deletions, *I* is insertions, and *N* is the 
 ### 3. Term Extraction & F1-Score Evaluation
 We employed GPT-4o to identify traditional metaphors and scientific terms to analyze macro-level discourse. To quantify the model's performance against human-annotated ground truth, we calculated Precision (P), Recall (R), and the F1-score (F1) on a validated subset of transcripts.
 
-The `f1_evaluator.py` script computes the F1 metric based on True Positives (TP), False Positives (FP), and False Negatives (FN):
+The `f1_evaluator.ipynb` script computes the F1 metric based on True Positives (TP), False Positives (FP), and False Negatives (FN):
 $$F1 = 2 \times \frac{P \times R}{P + R}$$
 
 
